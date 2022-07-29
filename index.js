@@ -177,8 +177,8 @@ const getMyId = () =>{
 
         setTimeout(()=> {
             let myDetails = {
-                fName: "Ravi",
-                lName: "Patil",
+                fName: "UMESH",
+                lName: "PM",
                 age:"25",
             }
             console.log(`The name of the Employee is ${myDetails.fName} ${myDetails.lName} and age is ${myDetails.age}`);
@@ -212,8 +212,8 @@ const getArrDetails = (data) => {
     return new Promise((resolve,reject)=>{
         setTimeout((data)=>{
             let bikeDetails = {
-                brand : "KAWASAKI",
-                bike : "Ninja H2",
+                brand : "ROYAL",
+                bike : "ENFIELD",
                 milage : "25KM",
             }
             resolve(`The Model No. of the bike is ${data} and the name of the company is ${bikeDetails.brand}, bike name is ${bikeDetails.bike} and milage of the bike is ${bikeDetails.milage}`);
